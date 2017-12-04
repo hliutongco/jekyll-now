@@ -11,13 +11,15 @@ $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
 $gray: #666;
+$green: #70A764;
 $lightGray: #eee;
+$lighterGray: #F1F1F1;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$helvetica: Helvetica, Verdana, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Verdana, sans-serif;
+$proximaNova: Proxima Nova, Helvetica, Verdana, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
