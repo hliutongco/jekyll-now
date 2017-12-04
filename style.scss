@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $proximaNova;
+  font-family: $helveticaNeue;
   color: $darkerGray;
 
   line-height: 1.7;
@@ -211,7 +211,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 5px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 20px;
 
