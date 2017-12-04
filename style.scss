@@ -193,10 +193,12 @@ img {
 
 .site-name {
   margin: 0;
+  text-align: left;
+  text-transform: none;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 40px;
   letter-spacing: 1px;
 }
