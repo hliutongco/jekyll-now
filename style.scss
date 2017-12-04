@@ -49,7 +49,10 @@ h1 {
   text-transform: uppercase;
   font-weight: 200;
   a {
-    color: inherit;
+    color: $darkerGray;
+    text-decoration: none;
+    &:hover, &:active {
+    color: $darkerGray;
   }
 }
 
