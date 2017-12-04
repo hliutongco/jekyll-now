@@ -33,7 +33,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $proximaNova;
   color: $darkerGray;
-  font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -45,18 +44,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 30px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 26px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h4 {
@@ -195,8 +194,8 @@ img {
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 35px;
+  font-weight: 400;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 
