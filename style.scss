@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $lightGray;
-  font: 18px/1.4 $helveticaNeue;
+	background: $lighterGray;
+  font: 18px/1.4 $proximaNova;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $proximaNova;
   color: $darkerGray;
   font-weight: bold;
 
