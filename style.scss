@@ -206,7 +206,7 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 75px;
+  font-size: 60px;
   letter-spacing: 1px;
   text-shadow: #EDEDED 3px 2px 0;
 }
@@ -295,13 +295,14 @@ nav {
 
 button {
     display: block;
+    width: 75px;
     margin: 0 auto;
     border: 1px solid $gray;
     border-radius: 5px;
     padding: 10px;
     background: $gray;
     text-align: center;
-    color: $green;
+    color: black;
 }
 
 /* .wrapper-footer {
