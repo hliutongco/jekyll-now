@@ -9,8 +9,6 @@
 @import "variables";
 @import "nib"
 
-$brace-color = white;
-
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -178,7 +176,7 @@ img {
   
   &:before {
     width: 50%;
-    border-top: 5px solid $brace-color;
+    border-top: 5px solid white;
     border-left: 1px solid transparent; /* play with this until you like the look of it */
     border-top-left-radius: 20% 30px;
     height: 100%;
