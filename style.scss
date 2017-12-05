@@ -171,13 +171,13 @@ img {
   background-repeat: no-repeat;
   text-transform: lowercase;
   font-style: italic;
-  color: $brace-color;
+  color: white;
   filter: drop-shadow(0 1px 1px rgba(black,.15));
   
   &:before {
     width: 50%;
     border-top: 5px solid white;
-    border-left: 1px solid transparent; /* play with this until you like the look of it */
+    border-left: 1px solid transparent;
     border-top-left-radius: 20% 30px;
     height: 100%;
     content: "";
@@ -189,7 +189,7 @@ img {
   &:after {
     width: 50%;
     border-top: 5px solid white;
-    border-right: 1px solid transparent; /* play with this until you like the look of it */
+    border-right: 1px solid transparent;
     border-top-right-radius: 20% 30px;
     height: 100%;
     content: "";
