@@ -215,7 +215,7 @@ img {
   text-shadow: #EDEDED 3px 2px 0;
 	@font-face {
 	font-family: ArcadeClassic;
-	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
+	src: url('/ARCADECLASSIC.woff') format('woff');
 	}
 }
 
@@ -232,7 +232,7 @@ img {
 nav {
   float: right;
   font-family: $helveticaNeue;
-  font-weight: 250;
+  font-weight: 350;
   font-size: 20px;
 
   @include mobile {
