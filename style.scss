@@ -180,7 +180,7 @@ img {
     border-top-left-radius: 20% 30px;
     height: 100%;
     content: "";
-//    absolute: top left -15px;
+    absolute: top left -15px;
     box-sizing: border-box;
     margin-top: -5px;
   }
@@ -192,7 +192,7 @@ img {
     border-top-right-radius: 20% 30px;
     height: 100%;
     content: "";
-//    absolute: top @height right -15px;
+    absolute: top right -15px;
     box-sizing: border-box;
     margin-top: -5px;
   }
