@@ -186,12 +186,10 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 90px;
-  height: 90px;
-  margin-top: 30px;
-  margin-right: 15px;
-  margin-left: 250px;
+  position: absolute;
+  top: 30px; left: 250px;
+  max-width: 90px;
+  max-height: 90px;
 
   @include mobile {
     float: none;
