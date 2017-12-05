@@ -9,7 +9,10 @@
 @import "variables";
 @font-face {
 	font-family: Arcade Classic;
-	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
+	src: url('BM toppo A12.otf') format('otf'),
+	url('BM toppo A12.ttf') format('ttf'),
+	url('BM toppo A12.svg') format('svg'),
+	url('BM toppo A12.woff') format('woff');
 }
 
 
