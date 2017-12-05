@@ -35,13 +35,26 @@ div#main.container{
   width: 70%;
   float: left;
   padding: 0 30px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
 }
 
 div#sidebar.container{
-	display: inline;
-	width: 30%;
-	float: right;
-	padding: 0 30px;
+display: inline;
+width: 30%;
+float: right;
+padding: 0 30px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -220,6 +233,7 @@ nav {
   max-height: 90px;
 
   @include mobile {
+    position: static;
     float: none;
     display: block;
     margin: 0 auto;
