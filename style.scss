@@ -215,10 +215,13 @@ img {
   font-size: 70px;
   letter-spacing: 1px;
   text-shadow: $lighterGray 3px 2px 0;
-	@font-face {
+	a{
+		color: $lighterGray;
+	}
+/*	@font-face {
 	font-family: Arcade Classic;
 	src: url('/ARCADECLASSIC.woff');
-	}
+	} */
 }
 
 .site-description {
