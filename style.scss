@@ -67,6 +67,7 @@ padding: 0 30px;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
+  text-align: center;
   color: $darkerGray;
 
   line-height: 1.7;
@@ -80,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 40px;
-  text-align: center;
   font-weight: 300;
   a {
     color: $darkerGray;
