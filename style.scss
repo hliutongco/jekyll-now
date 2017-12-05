@@ -205,11 +205,14 @@ img {
   text-transform: none;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 600;
   font-size: 70px;
   letter-spacing: 1px;
   text-shadow: #EDEDED 3px 2px 0;
+	@font-face {
+	font-family: ArcadeClassic;
+	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
+	}
 }
 
 .site-description {
