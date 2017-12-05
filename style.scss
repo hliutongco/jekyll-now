@@ -199,6 +199,7 @@ img {
 }
 
 .site-avatar {
+  content:url("http://imgur.com/SZ8Cm.jpg");
   position: absolute;
   top: 100px; right: 10px;
   max-width: 60px;
@@ -212,7 +213,6 @@ img {
   }
 
   img {
-    src: 'hliutongco.github.io/images/beepboop.png'
     border-radius: 5px;
   }
 }
