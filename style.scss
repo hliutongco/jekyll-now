@@ -260,7 +260,7 @@ img {
 	}
 	@font-face {
 	font-family: Arcade Classic;
-	src: url('/ARCADECLASSIC.woff');
+	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
 	}
 }
 
