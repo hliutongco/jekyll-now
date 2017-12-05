@@ -164,7 +164,7 @@ img {
 //
 
 .wrapper-masthead {
-  background: $black;
+  background: $darkerGray;
   margin-bottom: 10px;
 }
 
@@ -209,12 +209,12 @@ img {
   margin: 0;
   text-align: left;
   text-transform: none;
-  color: $white;
+  color: $lighterGray;
   cursor: pointer;
   font-weight: 600;
   font-size: 70px;
   letter-spacing: 1px;
-  text-shadow: #EDEDED 3px 2px 0;
+  text-shadow: $white 3px 2px 0;
 	@font-face {
 	font-family: Arcade Classic;
 	src: url('/ARCADECLASSIC.woff');
