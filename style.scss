@@ -289,15 +289,16 @@ nav {
 
 button {
     display: block;
-    width: 75px;
+    width: 150px;
     margin: 0 auto;
     border: 1px solid $gray;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     background: black;
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: 200;
     color: $green;
 }
 
