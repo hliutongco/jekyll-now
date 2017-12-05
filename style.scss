@@ -185,6 +185,34 @@ img {
   }
 }
 
+nav {
+  display: block;
+  float: right;
+  font-family: $helveticaNeue;
+  font-weight: 350;
+  font-size: 20px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $green;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $green;
+    }
+  }
+}
+
 .site-avatar {
   position: absolute;
   top: 30px; left: 250px;
@@ -243,33 +271,6 @@ img {
 
   @include mobile {
     margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  font-family: $helveticaNeue;
-  font-weight: 350;
-  font-size: 20px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $green;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $green;
-    }
   }
 }
 
