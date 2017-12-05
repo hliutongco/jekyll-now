@@ -53,6 +53,7 @@ div#main.container{
 }
 
 div#sidebar.container{
+background: $lightGray;
 display: inline;
 width: 30%;
 float: right;
@@ -365,7 +366,7 @@ button {
 //
 
 .author-pic {
-  content:url("https://avatars2.githubusercontent.com/u/32890150?s=96&v=4");
+  content:url("http://hliutongco.github.io/images/beepboop.png");
 }
 
 /* .wrapper-footer {
