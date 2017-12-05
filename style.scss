@@ -217,6 +217,9 @@ img {
   text-shadow: $darkGray 3px 2px 0;
 	a{
 		color: $lighterGray;
+		  &:hover, &:active {
+    			color: $lighterGray;
+		}
 	}
 /*	@font-face {
 	font-family: Arcade Classic;
