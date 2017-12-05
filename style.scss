@@ -164,7 +164,7 @@ img {
 //
 
 .wrapper-masthead {
-  background: black;
+  background: $black;
   margin-bottom: 20px;
 }
 
@@ -209,21 +209,21 @@ img {
   margin: 0;
   text-align: left;
   text-transform: none;
-  color: white;
+  color: $white;
   cursor: pointer;
   font-weight: 600;
   font-size: 70px;
   letter-spacing: 1px;
   text-shadow: #EDEDED 3px 2px 0;
 	@font-face {
-	font-family: ArcadeClassic;
-	src: url('/ARCADECLASSIC.woff') format('woff');
+	font-family: Arcade Classic;
+	src: url('/ARCADECLASSIC.woff');
 	}
 }
 
 .site-description {
   margin: -15px 0 0 5px;
-  color: $lightestGray;
+  color: $lighterGray;
   font-size: 16px;
 
   @include mobile {
