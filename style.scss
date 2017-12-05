@@ -285,13 +285,6 @@ nav {
   .comments {
     margin-top: 10px;
   }
-
-  .read-more {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: $green;
-  }
 }
 
 button {
@@ -301,9 +294,11 @@ button {
     border: 1px solid $gray;
     border-radius: 5px;
     padding: 20px;
-    background: $gray;
+    background: black;
     text-align: center;
-    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: $green;
 }
 
 /* .wrapper-footer {
