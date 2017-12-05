@@ -199,8 +199,9 @@ img {
 }
 
 .site-avatar {
-  position: absolute;
-  top: 30px; left: 250px;
+  display: inline;
+  margin-top: 30px;
+  margin-right: 15px;
   max-width: 90px;
   max-height: 90px;
 
