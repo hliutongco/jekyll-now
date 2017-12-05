@@ -7,6 +7,11 @@
 
 @import "reset";
 @import "variables";
+@font-face {
+	font-family: Arcade Classic;
+	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
+}
+
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -191,7 +196,6 @@ img {
 
 .masthead {
   padding: 15px 0;
-//  border-bottom: 4px double #AAA;
 
   @include mobile {
     text-align: center;
@@ -219,7 +223,7 @@ img {
 .avatar-speech {
   content:url("http://hliutongco.github.io/images/beepboop.png");
   position: absolute;
-  top: 45px; right: 65px;
+  top: 35px; right: 60px;
   max-width: 50px;
   max-height: 50px;
 
@@ -258,10 +262,6 @@ img {
 		  &:hover, &:active {
     			color: $lighterGray;
 		}
-	}
-	@font-face {
-	font-family: Arcade Classic;
-	src: local('ArcadeClassic'), url('ARCADECLASSIC.woff') format('woff');
 	}
 }
 
