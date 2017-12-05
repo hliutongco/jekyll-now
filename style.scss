@@ -28,7 +28,13 @@ body {
   margin: 0 auto;
 //  max-width: 740px;
   padding: 0 10px;
-  width: 75%;
+  width: 100%;
+}
+
+div#main {
+	width: 75%
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
