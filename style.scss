@@ -294,11 +294,14 @@ nav {
 }
 
 button {
-	border: 1px solid $gray;
-	border-radius: 5px;
-	padding: 5px;
-	background: $gray;
-	color: $green;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid $gray;
+    border-radius: 5px;
+    padding: 10px;
+    background: $gray;
+    text-align: center;
+    color: $green;
 }
 
 /* .wrapper-footer {
