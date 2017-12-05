@@ -306,7 +306,6 @@ nav {
   }
 }
 
-
 //
 // .main
 //
@@ -350,6 +349,14 @@ button {
     font-size: 18px;
     font-weight: 500;
     color: $green;
+}
+
+//
+//sidebar
+//
+
+.author-pic {
+  content:url("https://avatars2.githubusercontent.com/u/32890150?s=96&v=4");
 }
 
 /* .wrapper-footer {
