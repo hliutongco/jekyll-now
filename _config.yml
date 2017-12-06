@@ -11,6 +11,9 @@ description: Learning the languages of our future robot overlords. Beep boop.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://hliutongco.github.io/images/bmo.gif
 
+# Post excerpt customization
+excerpt_separator: <!–break–>
+
 #
 # Flags below are optional
 #
