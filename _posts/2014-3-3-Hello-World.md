@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+excerpt_separator: <!--more-->
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
@@ -10,6 +11,8 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in ultrices leo, at iaculis turpis. Vestibulum aliquam velit ut orci dignissim lacinia.
 
 Pellentesque sit amet rhoncus urna. Vestibulum id lobortis turpis, vel blandit diam. Donec accumsan fringilla nisi nec imperdiet. Vestibulum venenatis tellus aliquam posuere commodo.
+
+<!--more-->
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
