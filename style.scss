@@ -395,7 +395,7 @@ button {
 }
 
 .sidebar-title {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-family: $helveticaNeue;
   text-align: center;
   color: $darkerGray;
@@ -404,7 +404,7 @@ button {
 
   border-bottom: 1px solid currentColor;
   display: inline-block;
-  line-height: 0.75;
+  line-height: 1.1;
 
   @include mobile {
     line-height: 1.4;
