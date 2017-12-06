@@ -393,6 +393,13 @@ button {
   width: 198px;
 }
 
+.sidebar-title {
+  text-transform: uppercase;
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+}
+
 /* .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid $green;
