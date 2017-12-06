@@ -402,21 +402,21 @@ button {
   line-height: 1.7;
   padding: 0;
 
-  border-bottom: 1px solid currentColor;
-  display: inline-block;
-  line-height: 1.1;
+//  border-bottom: 2px solid currentColor;
+//  display: inline-block;
+//  line-height: 1.1;
 
   @include mobile {
     line-height: 1.4;
   }
 }
 
-.sidebar-title::first-letter {
-  font-size: 175%;
-}
-
 .sidebar-title:before {
   content: "»"
+}
+
+.sidebar-title::first-letter {
+  font-size: 175%;
 }
 
 /* .wrapper-footer {
