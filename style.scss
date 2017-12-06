@@ -47,7 +47,7 @@ div#main.container{
     float: none;
     display: block;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0;
   }
 
 }
@@ -168,6 +168,9 @@ img {
   font-style: italic;
   color: $darkGray;
   text-align: right;
+	@include mobile {
+	  text-align: center;
+	}
 }
 
 // Specify the color of the selection
@@ -239,7 +242,8 @@ img {
   max-height: 50px;
 
   @include mobile {
-    position: static;
+    position: relative;
+    right: 20px;
     float: none;
     display: block;
     margin: 0 auto;
@@ -396,6 +400,9 @@ button {
 
 .sidebar-text {
   font-size: 15px;
+  	@include mobile {
+	padding-bottom: 5px;
+	}
 }
 
 .sidebar-title {
