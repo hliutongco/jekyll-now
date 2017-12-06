@@ -415,6 +415,10 @@ button {
   font-size: 175%;
 }
 
+.sidebar-title:before {
+  content: "»"
+}
+
 /* .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid $green;
