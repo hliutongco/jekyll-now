@@ -399,18 +399,20 @@ button {
   font-family: $helveticaNeue;
   text-align: center;
   color: $darkerGray;
-
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
+
+  border-bottom: 1px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
 
   @include mobile {
     line-height: 1.4;
   }
+}
 
-//  border-bottom: 1px solid currentColor;
-//  display: inline-block;
-//  line-height: 0.85;
+.sidebar-title::first-letter {
+  font-size: 200%;
 }
 
 /* .wrapper-footer {
