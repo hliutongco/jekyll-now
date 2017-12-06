@@ -411,10 +411,11 @@ button {
 }
 
 .sidebar-title:before {
-  content: "»"
+  content: "»";
+  font-size: 150%;
 }
 
-.sidebar-title::first-letter {
+.sidebar-title-text::first-letter {
   font-size: 175%;
 }
 
