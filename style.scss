@@ -394,8 +394,8 @@ button {
   width: 198px;
 }
 
-p#about-author {
-  font-size: 14px;
+.sidebar-text {
+  font-size: 15px;
 }
 
 .sidebar-title {
@@ -417,10 +417,6 @@ p#about-author {
 .sidebar-title:before {
   content: "»";
   font-size: 150%;
-}
-
-.sidebar-title-text::first-letter {
-  font-size: 175%;
 }
 
 /* .wrapper-footer {
