@@ -404,7 +404,7 @@ button {
 
   border-bottom: 1px solid currentColor;
   display: inline-block;
-//  line-height: 0.85;
+  line-height: 0.75;
 
   @include mobile {
     line-height: 1.4;
@@ -413,7 +413,6 @@ button {
 
 .sidebar-title::first-letter {
   font-size: 175%;
-  text-align: center;
 }
 
 /* .wrapper-footer {
