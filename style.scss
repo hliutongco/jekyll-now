@@ -59,6 +59,7 @@ display: inline;
 width: 25%;
 float: right;
 padding: 0 30px;
+border-radius: 5px;
 
   @include mobile {
     float: none;
