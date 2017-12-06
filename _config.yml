@@ -12,7 +12,7 @@ description: Learning the languages of our future robot overlords. Beep boop.
 avatar: http://hliutongco.github.io/images/bmo.gif
 
 # Post excerpt customization
-excerpt_separator: <!–break–>
+excerpt_separator: /n/n
 
 #
 # Flags below are optional
