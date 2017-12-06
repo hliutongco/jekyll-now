@@ -418,6 +418,8 @@ button {
   content: "»";
   font-size: 150%;
   color: $darkGray;
+  position: relative;
+  top: 5px;
 }
 
 /* .wrapper-footer {
