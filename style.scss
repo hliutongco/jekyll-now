@@ -52,6 +52,12 @@ div#main.container{
 
 }
 
+div#column{
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+
 div.sidebar{
 margin: 10px 10px 0 0;
 background: $sidebarGray;
