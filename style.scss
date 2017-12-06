@@ -272,7 +272,7 @@ img {
 .site-name:before {
   content: "{";
   position: relative;
-  top: -20px; right: 5px;
+  top: -10px; right: 5px;
   font-family: $helveticaNeue;
   font-weight: 600;
   font-size: 80px;
@@ -370,8 +370,8 @@ button {
 
 .author-pic {
   content:url("hliutongco.github.io/helen_avatar.png");
+  display: block;
   margin: 0 auto;
-  padding: 0;
   height: 210px;
   width: 198px;
 }
