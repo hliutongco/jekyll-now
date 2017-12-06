@@ -394,11 +394,22 @@ button {
 }
 
 .sidebar-title {
-  text-align: center;
   text-transform: uppercase;
-  border-bottom: 1px solid currentColor;
-  display: inline-block;
-  line-height: 0.85;
+  font-family: $helveticaNeue;
+  text-align: center;
+  color: $darkerGray;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+
+//  border-bottom: 1px solid currentColor;
+//  display: inline-block;
+//  line-height: 0.85;
 }
 
 /* .wrapper-footer {
