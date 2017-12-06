@@ -280,6 +280,17 @@ img {
   text-shadow: $darkerGray 3px 2px 0;
 }
 
+.site-name:after {
+  content: "}";
+  position: relative;
+  top: -10px; left: 5px;
+  font-family: $helveticaNeue;
+  font-weight: 600;
+  font-size: 80px;
+  color: $gray;
+  text-shadow: $darkerGray 3px 2px 0;
+}
+
 .site-description {
   margin: -15px 0 0 0;
   text-align: center;
