@@ -19,7 +19,7 @@ layout: default
 
 <div class="more-posts">
   <h3>You might also like...</h3>
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
         <h4>
           <a class="more-posts" href="{{ post.url }}">
             {{ post.title }}
