@@ -20,13 +20,11 @@ layout: default
 <div class="more-posts">
   <h3>More Posts</h3>
     {% for post in site.posts limit:3 %}
-      <p class="more-posts">
         <h4>
-          <a href="{{ post.url }}">
+          <a class="more-posts" href="{{ post.url }}">
             {{ post.title }}
           </a>
         </h4>
-      </p>
     {% endfor %}
 </div>
 
