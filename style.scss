@@ -388,6 +388,20 @@ button {
 }
 
 /*
+* Related Posts from hyde: http://hyde.getpoole.com
+*/
+
+div.more-posts {
+  margin: 20px 0;
+  background: $sidebarGray;
+}
+
+ul.more-posts {
+  margin: 0 auto;
+  width:100%;
+}
+
+/*
  * Pagination from hyde: http://hyde.getpoole.com
  *
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
