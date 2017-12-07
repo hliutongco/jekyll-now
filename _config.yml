@@ -14,6 +14,9 @@ avatar: http://hliutongco.github.io/images/bmo.gif
 # Post excerpt customization
 excerpt_separator: <!--more-->
 
+# Pagination
+paginate: 2;
+
 #
 # Flags below are optional
 #
