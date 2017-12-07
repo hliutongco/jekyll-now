@@ -237,7 +237,7 @@ img {
 .avatar-speech {
   content:url("http://hliutongco.github.io/images/beepboop.png");
   position: absolute;
-  top: 85px; right: 60px;
+  top: -105px; right: 60px;
   max-width: 50px;
   max-height: 50px;
 
@@ -401,7 +401,7 @@ button {
 .sidebar-text {
   font-size: 15px;
   	@include mobile {
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	}
 }
 
