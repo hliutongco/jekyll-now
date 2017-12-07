@@ -3,14 +3,14 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
   {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="date">
-        Written by Helen L. on {{ post.date | date: "%B %e, %Y" }}
+        Written by Helen L on {{ post.date | date: "%B %e, %Y" }}
       </div>
       
       <div class="entry">
