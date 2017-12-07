@@ -415,7 +415,7 @@ button {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: $darkGray;
+  background-color: $lightGray;
 }
 
 @media (min-width: 30em) {
