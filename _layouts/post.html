@@ -19,17 +19,15 @@ layout: default
 
 <div class="more-posts">
   <h3>More Posts</h3>
-  <ul>
     {% for post in site.posts limit:3 %}
-      <li class="more-posts">
+      <p class="more-posts">
         <h4>
           <a href="{{ post.url }}">
             {{ post.title }}
           </a>
         </h4>
-      </li>
+      </p>
     {% endfor %}
-  </ul>
 </div>
 
 <div id="footer">test</div>
