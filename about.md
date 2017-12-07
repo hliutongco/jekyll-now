@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A quirky blog from a quirky coding newbie. Because learning to code is hard, but we can still have fun doing it.
 
-### More Information
+Here's some dancing pikachus:
 
-A place to include any other types of information that you'd like to include about yourself.
+![dancing pikachus](/images/dancing_pikachus.gif)
 
-### Contact me
+### Currently learning:
 
-[email@domain.com](mailto:email@domain.com)
+Javascript, Ruby on Rails
+
+### Contact Helen
+
+[liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
