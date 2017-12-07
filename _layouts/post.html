@@ -17,13 +17,12 @@ layout: default
 
 <div class="more-posts">
   <h3>More Posts</h3>
-  <ul class="more-posts">
-    {% for post in site.posts limit:2 %}
-      <li>
+  <ul>
+    {% for post in site.posts limit:3 %}
+      <li class="more-posts">
         <h4>
           <a href="{{ post.url }}">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
           </a>
         </h4>
       </li>
