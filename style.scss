@@ -74,8 +74,12 @@ padding: 0 30px;
   }
 }
 
-div#footer{
+div#footer-container{
   position: relative;
+}
+
+div#footer{
+  position: absolute;
   bottom: 0;
 }
 
