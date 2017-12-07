@@ -243,7 +243,7 @@ img {
 
   @include mobile {
     position: relative;
-    right: 20px;
+    top: 85px; right: 20px;
     float: none;
     display: block;
     margin: 0 auto;
@@ -401,7 +401,7 @@ button {
 .sidebar-text {
   font-size: 15px;
   	@include mobile {
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 	}
 }
 
