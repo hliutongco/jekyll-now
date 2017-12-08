@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-A quirky blog from a quirky coding newbie. Because learning to code is hard, but we can still have fun doing it.
+Code Meets Girl is a quirky blog from a quirky coding newbie. I take stuff that I struggle to understand, learn them as best as I can, and then try to explain them in a way that doesn't sound like gobbledygook.
 
-Here's some dancing pikachus:
+Learning to code is hard, but we can still have fun doing it. Have some dancing pikachus:
 
 ![dancing pikachus](/images/dancing_pikachus.gif)
 
