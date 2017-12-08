@@ -12,8 +12,8 @@ Learning to code is hard, but we can still have fun doing it. Have some dancing 
 
 ### Currently learning:
 
-Javascript, Ruby on Rails
+#### Javascript, Ruby on Rails
 
 ### Contact Helen
 
-[liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
+#### [liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
