@@ -10,11 +10,11 @@ Learning to code is hard, but we can still have fun doing it. Have some dancing 
 
 ![dancing pikachus](/images/dancing_pikachus.gif)
 
-### Currently learning:
+### Currently Learning:
 
 #### Javascript, Ruby on Rails
 
 
 ### Contact Helen:
 
-#### [liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
+#### email: [liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
