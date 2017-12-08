@@ -17,4 +17,4 @@ Learning to code is hard, but we can still have fun doing it. Have some dancing 
 
 ### Contact Helen:
 
-#### email: [liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
+#### [liutongcoh@gmail.com](mailto:liutongcoh@gmail.com)
