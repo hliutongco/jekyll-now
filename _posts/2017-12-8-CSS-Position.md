@@ -10,9 +10,9 @@ So this blog layout took a while for me to design, quite a bit longer than I had
 
 See that dancing robot in the top corner? That's an animated gif. The speech bubble is actually a separate image that was positioned adjacent to it. So how did that funny little robot get there? I first tried using:
 
-> `.site-avatar {
->  float: right;
-> }`
+    `.site-avatar {
+     float: right;
+    }`
 
 ...to float the robot to the right side of the title. But that left the robot hovering awkwardly beneath the site navigation, and worse, it pushed the title further to the left so that it was off-center.
 
