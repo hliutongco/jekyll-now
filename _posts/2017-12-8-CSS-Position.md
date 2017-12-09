@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 
 So this blog layout took a while for me to design, quite a bit longer than I had anticipated. I looked at CSS and thought "pfft, I can handle this guy", but then CSS chugged a protein shake and proceeded to kick my butt for hours. And since *Code Meets Girl* is all about explaining the stuff I've struggled with, why not start with the creation of the very page you're reading now? Or to be more specific, one particular element on this page.
 
-### Say hi to BMO, the blog mascot
+### »say hi to BMO, the blog mascot
 
 See that dancing robot in the top corner? That's an animated gif. The speech bubble is actually a separate image that was positioned adjacent to it. So how did that funny little robot get there? I first tried using:
 
@@ -21,7 +21,7 @@ See that dancing robot in the top corner? That's an animated gif. The speech bub
 This led me to the [CSS position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position), which would allow me to specify the exact location of the gif. The position property comes in a few different flavors, the most popular ones being **absolute** versus **relative**.
 
 <!--more-->
-### The difference between absolute vs relative positioning
+### »the difference between absolute vs relative positioning
 
 How do you know whether to use absolute or relative? You can start by asking a couple questions:
 
@@ -35,7 +35,7 @@ Similar to the previous point, you want to consider whether you need to create b
 
 In regards to my dancing robot, the answer to both questions is **no**. I don't want to push the title off-center; I want the title to treat the robot as if it's not really there. Likewise, I don't need to create extra space for the robot because there's already plenty of blank space in the header.
 
-### Using position: absolute
+### »using position: absolute
 
 This is the code I ended up using:
 
@@ -79,7 +79,7 @@ In this case, I didn't really want to use absolute positioning. After all, I onl
   
 Because I'm using relative positioning, the braces are not placed in the top right corner of the page. Instead, the braces maintained their original position by default. In order to bump the braces up, I only had to remove 10px of padding from the top of each brace.
 
-### Additional resources
+### »additional resources
 
 This post contains a super basic and non-technical explanation of the position property. Check out the below links if you want to learn more:
 
