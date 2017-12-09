@@ -59,7 +59,7 @@ Since the speech bubble is a separate image, I also had to use absolute position
         height: 50px;
       }
 
-### Using position: relative
+### »using position: relative
 
 Let's shift our attention away from the robot and instead focus on the "{ }" braces before and after the site title. By default, the braces were placed a little lower than the title text. I wanted to bump the braces up so that they were perfectly aligned with the text.
 
@@ -83,8 +83,8 @@ Because I'm using relative positioning, the braces are not placed in the top rig
 
 This post contains a super basic and non-technical explanation of the position property. Check out the below links if you want to learn more:
 
-[MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/position): this one has a helpful demo
+* [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/position) » this one has a helpful demo
 
-[CSS-tricks page](https://css-tricks.com/almanac/properties/p/position/): this one has gifs
+* [CSS-tricks page](https://css-tricks.com/almanac/properties/p/position/) » this one has gifs
 
-[A List Apart article](https://alistapart.com/article/css-positioning-101): this one is super thorough
+* [A List Apart article](https://alistapart.com/article/css-positioning-101) » this one is super thorough
