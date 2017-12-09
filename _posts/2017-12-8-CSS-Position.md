@@ -82,5 +82,7 @@ Because I'm using relative positioning, the braces are not placed in the top rig
 This post contains a super basic and non-technical explanation of the position property. Check out the below links if you want to learn more:
 
 [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/position): this one has a helpful demo
+
 [CSS-tricks page](https://css-tricks.com/almanac/properties/p/position/): this one has gifs
+
 [A List Apart article](https://alistapart.com/article/css-positioning-101): this one is super thorough
