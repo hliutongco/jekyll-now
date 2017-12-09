@@ -12,7 +12,8 @@ See that dancing robot in the top corner? That's an animated gif. The speech bub
 
 ```.site-avatar {
     float: right;
-  }```
+  }
+```
 
 ...to float the robot to the right side of the title. But that left the robot hovering awkwardly beneath the site navigation, and worse, it pushed the title further to the left so that it was off-center.
 
