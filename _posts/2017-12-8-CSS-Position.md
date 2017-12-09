@@ -16,18 +16,18 @@ See that dancing robot in the top corner? That's an animated gif. The speech bub
 
 ...to float the robot to the right side of the title. But that left the robot hovering awkwardly beneath the site navigation, and worse, it pushed the title further to the left so that it was off-center.
 
-This led me to the https://developer.mozilla.org/en-US/docs/Web/CSS/position CSS position property, which would allow me to specify the exact location of the gif. The position property comes in a few different flavors, the most popular ones being **absolute** versus **relative**.
+This led me to the [CSS position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position), which would allow me to specify the exact location of the gif. The position property comes in a few different flavors, the most popular ones being **absolute** versus **relative**.
 
 <!--more-->
 ### The difference between absolute vs relative positioning
 
 How do you know whether to use absolute or relative? You can start by asking a couple questions:
 
-Do you want your positioned element to affect the elements surrounding it?
+* Do you want your positioned element to affect the elements surrounding it?
 
 Think back to the earlier example, where I floated the robot to the right of the title. Doing this caused the title to shift to the left, pushing it off-center. In this instance, the title "senses" the presence of the robot and moves away in order to make room for it.
 
-Do you want for a certain amount of space to be reserved specifically for your positioned element?
+* Do you want for a certain amount of space to be reserved specifically for your positioned element?
 
 Similar to the previous point, you want to consider whether you need to create blank space for your positioned element and whether you want the surrounding elements to make room for it.
 
@@ -81,6 +81,6 @@ Because I'm using relative positioning, the braces are not placed in the top rig
 
 This post contains a super basic and non-technical explanation of the position property. Check out the below links if you want to learn more:
 
-MDN documentation https://developer.mozilla.org/en-US/docs/Web/CSS/position < this one has a helpful demo
-CSS-tricks page https://css-tricks.com/almanac/properties/p/position/ < this one has gifs
-A List Apart article https://alistapart.com/article/css-positioning-101 < this one is super thorough
+[MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/position): this one has a helpful demo
+[CSS-tricks page](https://css-tricks.com/almanac/properties/p/position/): this one has gifs
+[A List Apart article](https://alistapart.com/article/css-positioning-101): this one is super thorough
