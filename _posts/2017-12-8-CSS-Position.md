@@ -10,9 +10,9 @@ So this blog layout took a while for me to design, quite a bit longer than I had
 
 See that dancing robot in the top corner? That's an animated gif. The speech bubble is actually a separate image that was positioned adjacent to it. So how did that funny little robot get there? I first tried using:
 
-.site-avatar {
- float: right;
-}
+> `.site-avatar {
+>  float: right;
+> }`
 
 ...to float the robot to the right side of the title. But that left the robot hovering awkwardly beneath the site navigation, and worse, it pushed the title further to the left so that it was off-center.
 
@@ -37,12 +37,12 @@ In regards to my dancing robot, the answer to both questions is **no**. I don't 
 
 This is the code I ended up using:
 
-.site-avatar {
+ `.site-avatar {
  position: absolute;
  top: 115px; right: 10px;
  width: 60px;
  height: 60px;
-}
+ }`
 
 Elements with absolute positioning are kind of like ghosts. They're technically there and *we* can see them, but the other elements act like it doesn't exist.
 
@@ -50,12 +50,12 @@ By default, the robot ended up in the top right corner of the page, overlapping 
 
 Since the speech bubble is a separate image, I also had to use absolute positioning in order to put it right beside the robot:
 
-.avatar-speech {
+`.avatar-speech {
   position: absolute;
   top: 75px; right: 60px;
   width: 50px;
   height: 50px;
-}
+}`
 
 ### Using position: relative
 
@@ -63,17 +63,17 @@ Let's shift our attention away from the robot and instead focus on the "{ }" bra
 
 In this case, I didn't really want to use absolute positioning. After all, I only wanted to move the braces a few pixels up from their original position. This is the code I ended up using:
 
-.site-name:before {
+`.site-name:before {
   content: "{";
   position: relative;
   top: -10px;
- }
+ }`
  
- .site-name:after {
+ `.site-name:after {
   content: "}";
   position: relative;
   top: -10px;
-  }
+  }`
   
 Because I'm using relative positioning, the braces are not placed in the top right corner of the page. Instead, the braces maintained their original position by default. In order to bump the braces up, I only had to remove 10px of padding from the top of each brace.
 
