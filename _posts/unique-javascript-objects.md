@@ -31,5 +31,6 @@ It then compares the two strings, which are identical, and so the expression ret
 
 ### »additional resources
 
-[Watch and Code video](https://watchandcode.com/courses/60264/lectures/938895) » a video lecture from the Practical Javascript course
-[Stack Overflow question](https://stackoverflow.com/questions/41124252/why-is-true) » explanation of what happens when you throw arrays into the mix
+* [Watch and Code video](https://watchandcode.com/courses/60264/lectures/938895) » a video lecture from the Practical Javascript course
+
+* [Stack Overflow question](https://stackoverflow.com/questions/41124252/why-is-true) » explanation of what happens when you throw arrays into the mix
