@@ -9,7 +9,7 @@ Fun fact: [Javascript does weird stuff](https://www.destroyallsoftware.com/talks
 Well, not exactly. Unless you say otherwise, Javascript will treat every object as a unique individual with its own unique identity. To us, the two empty objects look exactly the same, but the computer interprets them as two completely different entities.
 
 <!--more-->
-![olsen twins as javascript objects](/)
+![olsen twins as javascript objects](/images/olsen_objects.png)
 
 Every time Javascript encounters a new object, it assigns a space for that object in its memory. Think of it this way: when Javascript meets the first object, Mary-Kate, it gives her a house on 54th street. It then meets Ashley and offers her a house on 55th street.
 
