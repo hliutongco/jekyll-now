@@ -16,6 +16,7 @@ excerpt_separator: <!--more-->
 
 # Pagination
 paginate: 1
+paginate_path: "/page/num/"
 
 #
 # Flags below are optional
