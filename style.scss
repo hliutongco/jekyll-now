@@ -435,7 +435,9 @@ span.pagination-item:first-child {
 a.pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid $green;
+  color: $green;
+  border: 1px solid $black;
+  background-color: $black;
 }
 a.pagination-item:first-child {
   margin-bottom: -1px;
@@ -443,7 +445,6 @@ a.pagination-item:first-child {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: $black;
   cursor: pointer;
 }
 
