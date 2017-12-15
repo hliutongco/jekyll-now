@@ -6,7 +6,9 @@ excerpt_separator: <!--more-->
 
 Fun fact: [Javascript does weird stuff](https://www.destroyallsoftware.com/talks/wat) sometimes. For a quick example, try typing:
 
-`{} === {}`
+```
+{} === {}
+```
 
 ...into your console. An empty object is equal to an empty object, so clearly the return value will be true. Right?
 
@@ -23,13 +25,17 @@ When it comes time to compare Mary-Kate and Ashley, Javascript looks at their ad
 
 Just to make things more complicated, go ahead and type the following expression into your console:
 
-`{} + {} === {} + {}`
+```
+{} + {} === {} + {}
+```
 
 Based on the above explanation, you probably expect this expression to also return a false value.
 
 Well, not exactly. When you throw arithmetic into the equation, Javascript converts each empty object into a string, and then it simply adds those strings together:
 
-`{} + {} -> '[object Object][object Object]'`
+```
+{} + {} -> '[object Object][object Object]'
+```
 
 It then compares the two strings, which are identical, and so the expression returns as true.
 
