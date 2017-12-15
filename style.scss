@@ -423,12 +423,21 @@ a.more-posts {
 }
 
 /* Pagination items can be `span`s or `a`s */
-.pagination-item {
+span.pagination-item {
   display: block;
   padding: 1rem;
   border: 1px solid $darkGray;
 }
-.pagination-item:first-child {
+span.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+a.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid $green;
+}
+a.pagination-item:first-child {
   margin-bottom: -1px;
 }
 
