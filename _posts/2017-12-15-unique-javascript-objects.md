@@ -1,4 +1,8 @@
+---
+layout: post
 title: Why every Javascript object is a special snowflake
+excerpt_separator: <!--more-->
+---
 
 Fun fact: [Javascript does weird stuff](https://www.destroyallsoftware.com/talks/wat) sometimes. For a quick example, try typing:
 
