@@ -1,4 +1,8 @@
-title: Super Simple Intro to Object Oriented Programming
+---
+layout: post
+title: Super simple intro to object oriented programming
+excerpt_separator: <!--more-->
+---
 
 So let's say that you've decided to flex your programming abilities by making a series of simple games. Let's also say that you decided to make these games using Ruby, because why not?
 
@@ -24,7 +28,7 @@ This is precisely where **classes** come in handy. Classes allow for a more eleg
 
 <!--more-->
 
-####»sharing (code) is caring
+### »sharing (code) is caring
 
 Since all three of your games share certain bits of code, we can create a separate class that houses those bits of code. We can then have our games inherit code from that newly-created class. In Ruby, it might look something like this:
 
@@ -50,7 +54,7 @@ A couple things to note:
 * You've probably noticed that after each game class, I've put "< Games". This is the syntax to inherit code from another class. So in the above code, the tic tac toe, hangman, and guess the number games are all inheriting code from the Games class.
 * You might have also noticed that the class names are all capitalized. Using capital letters is standard for classes in Ruby.
 
-####»classes as object creators
+### »classes as object creators
 
 One other major, major difference between classes versus regular methods is that classes have the power to **create objects**. In the context of the game classes in the above examples, it is sort of like creating a new instance of each game every time we run the code. If we were to call on a method in the TicTacToe class, for example, we would first create a new instance of a tic tac toe game:
 
@@ -75,6 +79,6 @@ Additional clarification: "TicTacToe.new" is the Ruby syntax for creating a new 
 
 Note that calling the "play_tictactoe" method directly on the TicTacToe class will result in an error.
 
-####»additional resources
+### »additional resources
 [bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
 [launch school lesson](https://launchschool.com/books/oo_ruby/read/inheritance) » this goes super in-depth into the topic of class inheritance
