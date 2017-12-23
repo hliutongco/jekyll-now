@@ -68,10 +68,10 @@ class TicTacToe < Games
   #Insert other code specific to tic tac toe
 end
 
-#Here we are creating a new instance of a tic tac toe game
+#Here we are creating a new tic tac toe game object
 ttt_game = TicTacToe.new
 
-#Here we are using the new instance to call upon the method that will start the game
+#Here we are using the new object to call upon the method that will start the game
 ttt_game.play_tictactoe
 ```
 
