@@ -77,7 +77,7 @@ ttt_game.play_tictactoe
 
 Additional clarification: "TicTacToe.new" is the Ruby syntax for creating a new object using a class. In the example, I assigned "TicTacToe.new" to the variable "ttt_game". I then used that variable to call upon a method within the TicTacToe class.
 
-Note that calling the "play_tictactoe" method directly on the TicTacToe class will result in an error.
+Note that calling the "play_tictactoe" method directly on the TicTacToe class will result in an error. This is because a class is an **object creator** rather than an object itself. You need to create an object (in this case, a tic tac toe game) first in order to call a method upon that object.
 
 ### »additional resources
 * [bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
