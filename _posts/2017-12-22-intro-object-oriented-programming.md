@@ -81,4 +81,5 @@ Note that calling the "play_tictactoe" method directly on the TicTacToe class wi
 
 ### »additional resources
 [bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
+
 [launch school lesson](https://launchschool.com/books/oo_ruby/read/inheritance) » this goes super in-depth into the topic of class inheritance
