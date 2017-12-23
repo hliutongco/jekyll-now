@@ -79,6 +79,8 @@ Additional clarification: "TicTacToe.new" is the Ruby syntax for creating a new 
 
 Note that calling the "play_tictactoe" method directly on the TicTacToe class will result in an error. This is because a class is an **object creator** rather than an object itself. You need to create an object (in this case, a tic tac toe game) first in order to call a method upon that object.
 
+In other words, the TicTacToe class is a game creator. And you need to first create a game of tic tac toe before you can play it. Capisci?
+
 ### »additional resources
 * [bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
 * [launch school lesson](https://launchschool.com/books/oo_ruby/read/inheritance) » this goes super in-depth into the topic of class inheritance
