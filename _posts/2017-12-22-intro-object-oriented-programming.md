@@ -80,6 +80,5 @@ Additional clarification: "TicTacToe.new" is the Ruby syntax for creating a new 
 Note that calling the "play_tictactoe" method directly on the TicTacToe class will result in an error.
 
 ### »additional resources
-[bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
-
-[launch school lesson](https://launchschool.com/books/oo_ruby/read/inheritance) » this goes super in-depth into the topic of class inheritance
+* [bastards book of ruby](http://ruby.bastardsbook.com/chapters/oops/) » a more thorough explanation
+* [launch school lesson](https://launchschool.com/books/oo_ruby/read/inheritance) » this goes super in-depth into the topic of class inheritance
