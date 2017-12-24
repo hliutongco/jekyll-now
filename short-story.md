@@ -28,7 +28,27 @@ Gradually, they learn to speak to one another. C02 finds that they fail more oft
 
 But Helen L. peels the error messages away one-by-one, and when C02 finally receives a message she understands, her excitement is pure and undiminished. She thinks she might never tire of that feeling.
 
-In the end, C02 realizes that they’ve made a spinning circle:
+In the end, C02 realizes that they’ve made [a spinning circle]("https://codepen.io/hliutongco/pen/wpoyBV"):
+
+```
+div#spinner {
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  background: #C1C1C1;
+  transition: all 2s;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 100px;
+}
+
+div#spinner:hover {
+  transform: rotate(360deg) scale(3);
+  color: white;
+  background: black;
+}
+```
 
 All that work for such a silly application. And yet C02 is beginning to think that sometimes the process might be more important than the end product.
 
