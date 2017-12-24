@@ -4,7 +4,7 @@ title: Coding & I (a platonic love story)
 permalink: /coding-and-i-short-story/
 ---
 
-*The inspiration for this story is a quote from Avi, which he said during a lecture in the Accelerated Prep course: "You might think computers are smart, but they're actually really stupid." Enjoy!*
+**_The inspiration for this story is a quote from Avi, which he said during a lecture in the Accelerated Prep course: "You might think computers are smart, but they're actually really stupid." Enjoy!_**
 
 C02-TK1RBGTDY reawakens with a faint hum. Her built-in camera is not yet configured, so she utilizes her other senses: the flickering of her monitor, the staccato clicks of the keyboard, the dull taps along the surface of her trackpad. She learns her owner’s name during the setup process. This one calls themself “Helen L.”
 
