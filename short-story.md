@@ -28,7 +28,7 @@ Gradually, they learn to speak to one another. C02 finds that they fail more oft
 
 But Helen L. peels the error messages away one-by-one, and when C02 finally receives a message she understands, her excitement is pure and undiminished. She thinks she might never tire of that feeling.
 
-In the end, C02 realizes that they’ve made [a spinning circle](https://codepen.io/hliutongco/pen/wpoyBV):
+In the end, C02 realizes that they’ve made **[a spinning circle](https://codepen.io/hliutongco/pen/wpoyBV)**:
 
 ```
 div#spinner {
@@ -60,7 +60,7 @@ Each message C02 receives reveals a little more about her owner, and soon she ha
 * Helen L. seems to enjoy speaking to computers.
 * Before speaking to computers, Helen L. spent her time creating emails.
 * Helen L.’s brows are creased most of the time. The crease becomes particularly deep whenever they have trouble communicating.
-* Helen L. is fond of computer games, including the troublesome ones that make C02 heat up worse than the touch of the sun.  Helen L. even asks C02 [to make games](https://github.com/hliutongco/pikachu-dodger) on occasion.
+* Helen L. is fond of computer games, including the troublesome ones that make C02 heat up worse than the touch of the sun.  Helen L. even asks C02 **[to make games](https://github.com/hliutongco/pikachu-dodger)** on occasion.
 * When Helen L. is not writing to C02, they are often writing long messages for other humans. C02 tried to read one of these messages once. She recognized words like “get” and “length”, but most of the text confused her. C02 avoids looking at these messages now; just scanning the sheer length of them fills her with anxiety.
 * Helen L.’s messages to her are improving over time. C02 begins to notice a pattern in the webpages and files she interacts with: many contain the string “flatiron”. C02 does not know what “flatiron” means, but she decides that it must mean something good.
 
