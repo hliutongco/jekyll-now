@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coding & I, a platonic love story
+title: Coding & I - a platonic love story -
 permalink: /coding-and-i-short-story/
 ---
 
