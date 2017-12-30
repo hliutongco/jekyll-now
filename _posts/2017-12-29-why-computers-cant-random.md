@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Computers Can't Random
+title: Why computers can't random
 excerpt_separator: <!--more-->
 ---
 
