@@ -20,4 +20,10 @@ So what do you do when you're in need of truly random numbers?
 
 ## real random numbers come from real life
 
-There are ways for computers to collect random numbers, all of which involve measuring random real-life phenomena. 
+There are ways for computers to collect random numbers, all of which involve measuring random real-life phenomena. One relatively easy-to-understand variation of this is the timestamps of a series of keystrokes.
+ 
+As [this article on How-To Geek](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/) explains:
+
+"For example, your computer might notice that you pressed a key at exactly 0.23423523 seconds after 2 p.m.. Grab enough of the specific times associated with these key presses and you’ll have a source of entropy you can use to generate a “true” random number."
+
+And that, in a nutshell, is why computers can't random (without considerable help from the non-computer world).
