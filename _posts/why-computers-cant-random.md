@@ -1,4 +1,8 @@
+---
+layout: post
 title: Why Computers Can't Random
+excerpt_separator: <!--more-->
+---
 
 I was explaining Javascript's Math.random() function to a friend when he suddenly asked me, "How do computers come up with random numbers?"
 
@@ -8,7 +12,7 @@ Which isn't exactly what the computer's doing, but it does get at the core of wh
 
 <!--more-->
 
-### that's right, Math.random() is a lie
+### »that's right, Math.random() is a lie
 
 Basically, Math.random() and other similar functions are more like random number simulators. They start with a base number and then use [a fancy algorithm](https://en.wikipedia.org/wiki/Linear_congruential_generator) to create a sequence of numbers that appear random.
 
@@ -18,7 +22,7 @@ Well, it matters in cases where you really, really don't want the numbers to be 
 
 So what do you do when you're in need of truly random numbers?
 
-### real random numbers come from real life
+### »real random numbers come from real life
 
 There are ways for computers to collect random numbers, all of which involve measuring random real-life phenomena. One relatively easy-to-understand variation of this is the timestamps of a series of keystrokes.
  
@@ -28,7 +32,7 @@ As [this article on How-To Geek](https://www.howtogeek.com/183051/htg-explains-h
 
 And that, in a nutshell, is why computers can't random (without considerable help from the non-computer world).
 
-### additional resources
+### »additional resources
 
-[random.org](https://www.random.org/randomness/) an organization that generates true random numbers
-[numberphile video](https://www.youtube.com/watch?v=SxP30euw3-0) how to use radioactive material to make random numbers
+* [random.org](https://www.random.org/randomness/) » an organization that generates true random numbers
+* [numberphile video](https://www.youtube.com/watch?v=SxP30euw3-0) » how to use radioactive material to make random numbers
