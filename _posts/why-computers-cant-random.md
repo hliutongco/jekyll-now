@@ -14,6 +14,10 @@ Basically, Math.random() and other similar functions are more like random number
 
 This sequence isn't *truly* random because it is, essentially, a long-running pattern. Eventually, the sequence of numbers will end and loop back to the beginning. That said, pseudo-random numbers are so good at imitating the real thing that most people would never even notice the pattern. So why does this even matter?
 
+Well, it matters in cases where you really, really don't want the numbers to be predictable in any way. For instance, if your website allows users to gamble on online games using real money, then you'd better make sure that the results of your games are truly random. Otherwise, users might realize the pattern and abuse it.
 
+So what do you do when you're in need of truly random numbers?
 
 ## real random numbers come from real life
+
+There are ways for computers to collect random numbers, all of which involve measuring random real-life phenomena. 
