@@ -100,7 +100,7 @@ case 1 => cross_circle above (cross_circle beside cross_circle beside cross_circ
 }
 ```
 
-![image of crosses made with recursion](https://hliutongco.github.io/images/crosses-recursion.png "recursion examples")
+![image of crosses made with recursion](https://hliutongco.github.io/images/crosses-recursion-short.png "recursion examples")
 
 And that's recursion in a nutshell!
 
