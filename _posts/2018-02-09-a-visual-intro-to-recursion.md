@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 
 In really simplistic terms, recursion is when a function refers to itself. And it can get pretty confusing. Take the case of these crosses:
 
-![image of crosses](images/crosses-recursion.png "crosses made with recursion")
+![image of crosses](https://hliutongco.github.io/images/crosses-recursion.png "crosses made with recursion")
 
 The cross starts as one circle. In each new iteration, four new circles are added: one on top, one on the bottom, and one to the right and left. So one circle becomes five, five becomes nine, and so on. Since each new cross builds off its previous version, we could use recursion to build these crosses.
 
@@ -100,7 +100,7 @@ case 1 => cross_circle above (cross_circle beside cross_circle beside cross_circ
 }
 ```
 
-![image of crosses made with recursion](images/crosses-recursion-short.png "recursion examples")
+![image of crosses made with recursion](https://hliutongco.github.io/images/crosses-recursion.png "recursion examples")
 
 And that's recursion in a nutshell!
 
